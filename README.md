@@ -8,8 +8,36 @@ Tally is a mobile-first expense tracker with flexible bill splitting, simplified
 
 > **Current scope:** Tally tracks shared expenses inside a private ledger owned by one account. It does not yet offer collaborative group accounts or move real money. You can try the local demo without an account or API key.
 
+## A look inside
+
+Your balances at a glance. A sidekick with a little personality. Designed for your thumb, with rounded cards, an attached bottom bar, and a palette you can make your own.
+
+<p align="center">
+  <img src="docs/images/iphone-overview.png" width="300" alt="Tally mobile overview in an iPhone-style frame, showing balances, groups, and bottom navigation" />
+  &nbsp;&nbsp;
+  <img src="docs/images/iphone-assistant.png" width="300" alt="Tally assistant in an iPhone-style frame, showing expense prompts and the message composer" />
+</p>
+
+<p align="center"><strong>Everyday clarity</strong> &nbsp; · &nbsp; <strong>Your personal sidekick</strong></p>
+
+These are browser screenshots with sample data, presented in illustrative iPhone-style frames. Tally is a responsive web app; the frames do not represent a native iOS release. The overview is scrolled to show the balance cards and groups. The assistant capture shows Local helper mode; cloud AI requires setup.
+
+<details>
+<summary><strong>See dark mode and full-size screenshots</strong></summary>
+
+<p align="center">
+  <img src="docs/images/mobile-themes.png" width="320" alt="Tally dark appearance settings with light, dark, and system modes and lime, peach, and lavender accents" />
+</p>
+
+Light, dark, or system. Lime, peach, or lavender. Your choice is saved on your device.
+
+[Overview screenshot](docs/images/mobile-overview.png) · [Assistant screenshot](docs/images/mobile-assistant.png) · [Theme settings screenshot](docs/images/mobile-themes.png)
+
+</details>
+
 ## Contents
 
+- [Mobile screenshots](#a-look-inside)
 - [Why Tally](#why-tally)
 - [Run locally](#run-locally)
 - [First steps](#first-steps)
