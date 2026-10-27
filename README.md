@@ -8,52 +8,59 @@ Tally is a mobile-first expense tracker with flexible bill splitting, simplified
 
 > **Current scope:** Tally tracks shared expenses inside a private ledger owned by one account. It does not yet offer collaborative group accounts or move real money. You can try the local demo without an account or API key.
 
-## A look inside
+## See Tally in action
 
-Your balances at a glance. A sidekick with a little personality. Designed for your thumb, with rounded cards, an attached bottom bar, and a palette you can make your own.
+Fresh captures of the actual app: **780 × 1688 mobile** and **1920 × 1500 desktop**. Click any image for its full-resolution file. Screens show sample data; unsaved forms illustrate workflows without adding transactions.
 
-<p align="center">
-  <img src="docs/images/iphone-overview.png" width="300" alt="Tally mobile overview in an iPhone-style frame, showing balances, groups, and bottom navigation" />
-  &nbsp;&nbsp;
-  <img src="docs/images/iphone-assistant.png" width="300" alt="Tally assistant in an iPhone-style frame, showing expense prompts and the message composer" />
-</p>
+### Mobile — all four pages
 
-<p align="center"><strong>Everyday clarity</strong> &nbsp; · &nbsp; <strong>Your personal sidekick</strong></p>
+<table>
+<tr><th>Overview</th><th>Groups</th><th>Expenses</th><th>Insights</th></tr>
+<tr>
+<td><a href="docs/images/mobile-overview-hd.jpg"><img src="docs/images/mobile-overview-hd.jpg" width="190" alt="Mobile overview and balance cards" /></a></td>
+<td><a href="docs/images/mobile-groups-hd.jpg"><img src="docs/images/mobile-groups-hd.jpg" width="190" alt="Mobile groups and people" /></a></td>
+<td><a href="docs/images/mobile-expenses-hd.jpg"><img src="docs/images/mobile-expenses-hd.jpg" width="190" alt="Mobile expense history with search, filters and export" /></a></td>
+<td><a href="docs/images/mobile-insights-hd.jpg"><img src="docs/images/mobile-insights-hd.jpg" width="190" alt="Mobile category spending insights" /></a></td>
+</tr>
+</table>
 
-These are browser screenshots with sample data, presented in illustrative iPhone-style frames. Tally is a responsive web app; the frames do not represent a native iOS release. The overview is scrolled to show the balance cards and groups. The assistant capture shows Local helper mode; cloud AI requires setup.
+### Desktop — a workspace with room to breathe
+
+![Desktop overview with balances, groups and spending summary](docs/images/web-overview-hd.jpg)
 
 <details>
-<summary><strong>See dark mode and full-size screenshots</strong></summary>
+<summary><strong>Open all desktop pages</strong></summary>
 
-<p align="center">
-  <img src="docs/images/mobile-themes.png" width="320" alt="Tally dark appearance settings with light, dark, and system modes and lime, peach, and lavender accents" />
-</p>
+**Groups and people**
 
-Light, dark, or system. Lime, peach, or lavender. Your choice is saved on your device.
+![Desktop groups and people](docs/images/web-groups-hd.jpg)
 
-[Overview screenshot](docs/images/mobile-overview.png) · [Assistant screenshot](docs/images/mobile-assistant.png) · [Theme settings screenshot](docs/images/mobile-themes.png)
+**Expense history, search, filters and CSV export**
+
+![Desktop expenses](docs/images/web-expenses-hd.jpg)
+
+**Category breakdown and daily spending**
+
+![Desktop insights](docs/images/web-insights-hd.jpg)
 
 </details>
 
-### On the web
+### The complete feature walkthrough
 
-More room for the same clarity. On desktop, Tally switches to sidebar navigation with a wider workspace for balances, groups, and spending insights.
+[Explore all 21 screenshots and the function-by-function guide →](docs/GALLERY.md)
 
-![Tally desktop overview with sidebar navigation, balance cards, and the personal assistant entry](docs/images/web-overview.png)
+Includes adding and editing expenses, equal/exact/percentage splits, expense details, group creation, adding people, settlements, payment recording, assistant drafts, review-before-save, appearance, personality, and voice settings. Insights and some settings are scrolled to their relevant controls. Cloud authentication and live receipt extraction require configuration and are described separately, not presented as verified live screenshots.
 
-<details>
-<summary><strong>Explore the desktop insights view</strong></summary>
+### Watch the feature film
 
-![Tally desktop insights showing spending by category, a category breakdown, and spending rhythm](docs/images/web-insights.png)
+[![Play the Tally feature film](docs/media/tally-feature-tour-poster.jpg)](https://github.com/ombdj1209/tally/raw/refs/heads/main/docs/media/tally-feature-tour.mp4)
 
-The insights screenshot is scrolled to the charts. Both desktop previews use sample data.
-
-</details>
+[Watch or download the 70-second feature film (1080p MP4)](https://github.com/ombdj1209/tally/raw/refs/heads/main/docs/media/tally-feature-tour.mp4) · [Video source and production notes](docs/VIDEO.md)
 
 ## Contents
 
-- [Mobile screenshots](#a-look-inside)
-- [Desktop web screenshots](#on-the-web)
+- [Screenshots and feature film](#see-tally-in-action)
+- [Complete visual walkthrough](docs/GALLERY.md)
 - [Why Tally](#why-tally)
 - [Run locally](#run-locally)
 - [First steps](#first-steps)
