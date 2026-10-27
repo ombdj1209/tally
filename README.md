@@ -35,9 +35,25 @@ Light, dark, or system. Lime, peach, or lavender. Your choice is saved on your d
 
 </details>
 
+### On the web
+
+More room for the same clarity. On desktop, Tally switches to sidebar navigation with a wider workspace for balances, groups, and spending insights.
+
+![Tally desktop overview with sidebar navigation, balance cards, and the personal assistant entry](docs/images/web-overview.png)
+
+<details>
+<summary><strong>Explore the desktop insights view</strong></summary>
+
+![Tally desktop insights showing spending by category, a category breakdown, and spending rhythm](docs/images/web-insights.png)
+
+The insights screenshot is scrolled to the charts. Both desktop previews use sample data.
+
+</details>
+
 ## Contents
 
 - [Mobile screenshots](#a-look-inside)
+- [Desktop web screenshots](#on-the-web)
 - [Why Tally](#why-tally)
 - [Run locally](#run-locally)
 - [First steps](#first-steps)
