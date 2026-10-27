@@ -1,0 +1,1 @@
+{"buildCommand":"npm run build","outputDirectory":"dist","functions":{"api/assistant.ts":{"maxDuration":60}},"rewrites":[{"source":"/((?!api/|assets/|appearance-init.js|icon.svg|manifest.webmanifest).*)","destination":"/index.html"}]}

@@ -1,0 +1,42 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+dist-ssr/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Secrets: keep the documented, empty template in Git
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+
+# Deployment and local Supabase state
+.vercel/
+supabase/.temp/
+supabase/.branches/
+
+# Logs and operating-system/editor artifacts
+logs/
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.swp
+*.swo
+*~
+
+# Local QA captures; curated README images belong in docs/images/
+preview-*.png
+playwright-report/
+test-results/
+
+# Commit package-lock.json for reproducible installs.
